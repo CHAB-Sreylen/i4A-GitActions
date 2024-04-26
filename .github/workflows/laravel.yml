@@ -11,7 +11,7 @@ on:
 jobs: # stages 
   laravel-tests: # stage name -> stage("laravel-tests") # in jenkins
 
-    runs-on: windows-latest # support ubuntu, window, mac # in jenkins is called agent (Github: Runners) 
+    runs-on: ubuntu-latest # support ubuntu, window, mac # in jenkins is called agent (Github: Runners) 
 
     steps:
     - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
